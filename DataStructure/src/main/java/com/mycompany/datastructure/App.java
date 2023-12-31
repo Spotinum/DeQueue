@@ -11,19 +11,15 @@ import java.util.Iterator;
 public class App {
 
     public static void main(String[] args) {
-       DequeueImpl<Integer> q = new DequeueImpl<>();
-       q.pushFirst(4);
-       q.pushLast(5);
-       q.pushLast(6);
-       q.pushLast(7);
-       q.pushFirst(3);
-       q.pushFirst(2);
-       q.pushFirst(1);
+            DequeueImpl<Integer> q = new DequeueImpl<>();
+       for (int i = 0; i < 100; i++) {
+                System.out.println("Adding element " + i + " to First with array length: "+ q.Length());
+                q.pushFirst(i);
+            }
        
-       Iterator<Integer> iterator = q.descendingIterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
-        }
+            while (!q.isEmpty()) {
+                System.out.println("Next element served from queue: " + q.popFirst()+" With array length: "+ q.Length());
+            }
 
          
     }

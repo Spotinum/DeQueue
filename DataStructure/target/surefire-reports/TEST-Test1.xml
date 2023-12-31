@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="Test1" time="0.032" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="Test1" time="0.03" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\John\Documents\NetBeansProjects\DataStructure"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\John\Desktop\gitHubTests\DataStructure"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\John\Documents\NetBeansProjects\DataStructure"/>
+    <property name="user.dir" value="C:\Users\John\Desktop\gitHubTests\DataStructure"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
     <property name="os.arch" value="amd64"/>
@@ -61,9 +61,9 @@
     <property name="sun.stdout.encoding" value="cp737"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Test1" name="Test1.testLastQueue" time="0.017"/>
-  <testcase classname="Test1" name="Test1.testClear" time="0"/>
-  <testcase classname="Test1" name="Test1.testFirstQueue" time="0.013"/>
+  <testcase classname="Test1" name="Test1.testClear" time="0.003"/>
+  <testcase classname="Test1" name="Test1.testFirstQueue" time="0.014"/>
+  <testcase classname="Test1" name="Test1.testLastQueue" time="0.011"/>
   <testcase classname="Test1" name="Test1.testSizeAndIsEmpty" time="0"/>
   <testcase classname="Test1" name="Test1.testFirstAndLast" time="0"/>
   <testcase classname="Test1" name="Test1.testPushLastAndPopLast" time="0.002"/>
